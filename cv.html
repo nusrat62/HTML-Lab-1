@@ -4,92 +4,106 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curriculum Vitae</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div>
-    <img src="./image/Nusrat Jahan Liza.jpg" alt="Nusrat Jahan Liza" width="150" height="150">
-    <h1>Curriculum Vitae</h1>
-  </div>
-  <hr>
+<body class="bg-gray-50 text-gray-800">
 
-  <h2>Personal Information</h2>
+  <div class="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-10">
     
-  <p><strong>Name:</strong> Nusrat jahan liza</p>
-  <p><strong>Email:</strong> nj6111449@gmail.com</p>
-  <p><strong>Phone:</strong> 01816378257</p>
-  <p><strong>Address:</strong> Cumilla,Bangladesh</p>
-
-  <h2>Profile</h2>
-  
-<p>
-  I am a web developer with knowledge of HTML, CSS, JavaScript, and React.  
-  I enjoy making clean and responsive websites and always try to learn new things.
-</p>
+   
+    <div class="flex items-center space-x-6">
+      <img src="./image/Nusrat Jahan Liza.jpg" alt="Nusrat Jahan Liza" class="w-32 h-32 rounded-full border-2 border-gray-300">
+      <h1 class="text-4xl font-bold">Curriculum Vitae</h1>
+    </div>
+    <hr class="my-6 border-gray-300">
 
 
-  <h2>Work Experience</h2>
-  <ul>
-    <li>
-      <strong>Frontend Developer</strong><br>
-      Developed and maintained web applications using React and Redux.
-    </li>
-  </ul>
+    <h2 class="text-2xl font-semibold mb-4">Personal Information</h2>
+    <p><span class="font-bold">Name:</span> Nusrat Jahan Liza</p>
+    <p><span class="font-bold">Email:</span> nj6111449@gmail.com</p>
+    <p><span class="font-bold">Phone:</span> 01816378257</p>
+    <p><span class="font-bold">Address:</span> Cumilla, Bangladesh</p>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Python</li>
-    <li>C</li>
-    <li>C++</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>React</li>
-    <li>Git</li>
-    <li>SQL</li>
-    <li>Tailwind CSS</li>
-  </ul>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <strong>Portfolio Website:</strong> Built a responsive portfolio website using Tailwind CSS and JavaScript.
-    </li>
-  </ul>
+    <h2 class="text-2xl font-semibold mt-6 mb-4">Profile</h2>
+    <p>
+      I am a web developer with knowledge of HTML, CSS, JavaScript, and React.  
+      I enjoy making clean and responsive websites and always try to learn new things.
+    </p>
 
-  <h2>Education</h2>
+    <h2 class="text-2xl font-semibold mt-6 mb-4">Work Experience</h2>
+    <ul class="list-disc pl-6">
+      <li>
+        <span class="font-bold">Frontend Developer:</span> Developed and maintained web applications using React and Redux.
+      </li>
+    </ul>
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <th>Degree</th>
-    <th>Institute</th>
-    <th>Year</th>
-    <th>GPA</th>
-  </tr>
-  <tr>
-    <td>Bachelor of Science in Computer Science</td>
-    <td>Bangladesh Army International University of Science and Technology (BAiUST)</td>
-    <td>2023 – 2027</td>
-    <td>3.72 / 4.00</td>
-  </tr>
-  <tr>
-    <td>H.S.C</td>
-    <td>Ibna Taimiya School and College</td>
-    <td>2021 – 2022</td>
-    <td>5.00 / 5.00</td>
-  </tr>
-  <tr>
-    <td>S.S.C</td>
-    <td>Cumilla Modern High School</td>
-    <td>2020</td>
-    <td>5.00 / 5.00</td>
-  </tr>
-</table>
+   
+    <h2 class="text-2xl font-semibold mt-6 mb-4">Skills</h2>
+    <ul class="list-disc pl-6 grid grid-cols-2 gap-2">
+      <li>Python</li>
+      <li>C</li>
+      <li>C++</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Git</li>
+      <li>SQL</li>
+      <li>Tailwind CSS</li>
+    </ul>
 
-  <h2>Languages</h2>
-<p>Bangla, English, Hindi</p>
-  <h2>Hobbies</h2>
-<p>Reading, Traveling</p>
-  <hr>
-  <p><em>End of CV</em></p>
+    <h2 class="text-2xl font-semibold mt-6 mb-4">Projects</h2>
+    <ul class="list-disc pl-6">
+      <li>
+        <span class="font-bold">Portfolio Website:</span> Built a responsive portfolio website using Tailwind CSS and JavaScript.
+      </li>
+    </ul>
+
+   
+    <h2 class="text-2xl font-semibold mt-6 mb-4">Education</h2>
+    <table class="w-full border border-gray-300 border-collapse text-left">
+      <thead class="bg-gray-100">
+        <tr>
+          <th class="border px-4 py-2">Degree</th>
+          <th class="border px-4 py-2">Institute</th>
+          <th class="border px-4 py-2">Year</th>
+          <th class="border px-4 py-2">GPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">Bachelor of Science in Computer Science</td>
+          <td class="border px-4 py-2">Bangladesh Army International University of Science and Technology (BAiUST)</td>
+          <td class="border px-4 py-2">2023 – 2027</td>
+          <td class="border px-4 py-2">3.72 / 4.00</td>
+        </tr>
+        <tr class="bg-gray-50">
+          <td class="border px-4 py-2">H.S.C</td>
+          <td class="border px-4 py-2">Ibna Taimiya School and College</td>
+          <td class="border px-4 py-2">2021 – 2022</td>
+          <td class="border px-4 py-2">5.00 / 5.00</td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">S.S.C</td>
+          <td class="border px-4 py-2">Cumilla Modern High School</td>
+          <td class="border px-4 py-2">2020</td>
+          <td class="border px-4 py-2">5.00 / 5.00</td>
+        </tr>
+      </tbody>
+    </table>
+
+ 
+    <h2 class="text-2xl font-semibold mt-6 mb-4">Languages</h2>
+    <p>Bangla, English, Hindi</p>
+
+    
+    <h2 class="text-2xl font-semibold mt-6 mb-4">Hobbies</h2>
+    <p>Reading, Traveling</p>
+
+    <hr class="my-6 border-gray-300">
+    <p class="text-center italic">End of CV</p>
+  </div>
+
 </body>
 </html>
